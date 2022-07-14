@@ -1,7 +1,13 @@
+body {
+    margin: 0;
+}
+
 .container {
+    padding: 50px 0;
     display: grid;
     grid-template: repeat(16, 50px) / repeat(16, 50px);
     gap: 3px;
+    justify-content: center;
 }  
 
 div.square {
@@ -9,6 +15,10 @@ div.square {
     height: 50px;
     border: 1px solid black;
     /* consider background-color and border */
+}
+
+div.square:hover{
+    background-color: red;
 }
 
 /* consider :onhover  */
