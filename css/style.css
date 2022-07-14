@@ -18,7 +18,7 @@ div.square {
 }
 
 div.square:hover{
-    background-color: red;
+    /* filter: brightness(10%); */
 }
 
 /* consider :onhover  */
