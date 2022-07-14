@@ -1,14 +1,14 @@
-/* 
-    .container {
-        //use grid to organize divs
-    } 
+.container {
+    display: grid;
+    grid-template: repeat(16, 50px) / repeat(16, 50px);
+    gap: 3px;
+}  
 
-    div.square {
-        width: 100px;
-        height: 100px;
-        //consider background-color and border
-    }
+div.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    /* consider background-color and border */
+}
 
-    //consider :onhover 
-
-*/
+/* consider :onhover  */
