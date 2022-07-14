@@ -56,7 +56,7 @@
             let square = document.getElementById(squareId);
 
             let numRegex = /\d+|s/g;    //Match all numbers and spaces
-            let num = square.style.cssText.match(numRegex);     //Store rgb values in num
+            let num = square.style.cssText.match(numRegex);     //Store array of rgb numbers in num
             square.style.cssText = `background-color: rgb(${num[0] - 25}, ${num[1] - 25}, ${num[2] - 25})`;
     }
     
