@@ -5,20 +5,14 @@ body {
 .container {
     padding: 50px 0;
     display: grid;
-    grid-template: repeat(16, 50px) / repeat(16, 50px);
+    grid-template: repeat(40, 20px) / repeat(40, 20px);
     gap: 3px;
     justify-content: center;
 }  
 
 div.square {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(96, 96, 96);
     /* consider background-color and border */
 }
-
-div.square:hover{
-    /* filter: brightness(10%); */
-}
-
-/* consider :onhover  */
